@@ -70,7 +70,7 @@ let z: i32 = -11; // type annotation optional
 
 | Type | Description | Example Value |
 |---|---|---|
-|`[T, N]`| array of `T` of size `N` | `[1,2,3]` |
+|`[T; N]`| array of `T` of size `N` | `[1, 2, 3]` |
 |`(T, U, ...)`| tuple | `(1, '🦀')` 
 | `()` | unit (empty tuple): one possible value | `()` |
 | `!` | never: zero possible values | - |
